@@ -3,13 +3,12 @@
     <v-app-bar fixed app class="mx-auto">
       <v-toolbar-title
         class="cursor-pointer"
-        @click="$router.push({ path: '/' })"
       >
         {{ title }}
       </v-toolbar-title>
       <v-spacer />
       <v-avatar size="40">
-        <v-btn icon to="/cart">
+        <v-btn icon>
           <v-icon size="30">mdi-star</v-icon>
         </v-btn>
       </v-avatar>
